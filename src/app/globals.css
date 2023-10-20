@@ -7,3 +7,8 @@
   --col1:rgb(248 68 100);
   --col2:#333444;
 }
+.linkstylenone{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
