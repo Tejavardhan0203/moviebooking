@@ -32,7 +32,7 @@ const MoviePage = () => {
         duration: "2h15mins",
         type: "action/thriller",
         releasedate: "sep3, 2023",
-
+        
         cast:[
             {
                 _id: "1",
