@@ -1,6 +1,8 @@
 "use client"
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import './selectseat.css'
+
 
 const page = () => {
     const pathname = usePathname()
@@ -2233,9 +2235,18 @@ const generateSeatLayout = () => {
                                             {
                                                 col.seats.map((seat, seatIndex) => (
                                                     <div key={seatIndex}>
-                                                        <span>
-                                                            {seatIndex+1}
-                                                        </span>
+                                                        {
+                                                            seat.status=='available' &&
+                                                            <span className='seat-available'>
+                                                                {seatIndex+1}
+                                                            </span>
+                                                        }
+                                                        {
+                                                            seat.status=='not-available' &&
+                                                            <span className='seat-not-available'>
+                                                                {seatIndex+1}
+                                                            </span>
+                                                        }
                                                     </div>
                                                 
                                                 ))
