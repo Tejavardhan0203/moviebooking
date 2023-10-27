@@ -2222,7 +2222,31 @@ const generateSeatLayout = () => {
         <div className="seat-type" key={index}>
             <h2>{seatType.type}-Rs.{seatType.price}</h2>
             <div className="seat-rows">
-
+                {
+                    seatType.rows.map((row,rowIndex)=>(
+                        <div className="seat-row" key={rowIndex}>
+                            <p className="rowname">{row.rowname}</p>
+                            <div className="seat-cols">
+                                {
+                                    row.cols.map((col, colIndex) =>(
+                                        <div className='seat-col' key={colIndex}>
+                                            {
+                                                col.seats.map((seat, seatIndex) => (
+                                                    <div key={seatIndex}>
+                                                        <span>
+                                                            {seatIndex+1}
+                                                        </span>
+                                                    </div>
+                                                
+                                                ))
+                                            }
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     ))
