@@ -34,209 +34,211 @@ const screen = {
                 time: '11:00 AM',
                 seats :[
                     {
-                    //platinum
-                    type: 'Platinum',
-                    rows: [
-                        {
-                            rowname: 'H',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'G',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'F',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        }
-                    ]
+                        //platinum
+                        type: 'Platinum',
+                        price:'500',
+                        rows: [
+                            {
+                                rowname: 'H',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'G',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'F',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         //platinum
                         type: 'Gold',
+                        price:'400',
                         rows: [
                             {
                                 rowname: 'E',
@@ -438,6 +440,7 @@ const screen = {
                     {
                         //platinum
                         type: 'Silver',
+                        price:'200',
                         rows: [
                             {
                                 rowname: 'B',
@@ -577,209 +580,211 @@ const screen = {
                 time: '02:00 PM',
                 seats :[
                     {
-                    //platinum
-                    type: 'Platinum',
-                    rows: [
-                        {
-                            rowname: 'H',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'G',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'F',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        }
-                    ]
+                        //platinum
+                        type: 'Platinum',
+                        price:'500',
+                        rows: [
+                            {
+                                rowname: 'H',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'G',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'F',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         //platinum
                         type: 'Gold',
+                        price:'400',
                         rows: [
                             {
                                 rowname: 'E',
@@ -981,6 +986,7 @@ const screen = {
                     {
                         //platinum
                         type: 'Silver',
+                        price:'200',
                         rows: [
                             {
                                 rowname: 'B',
@@ -1120,209 +1126,211 @@ const screen = {
                 time: '06:00 PM',
                 seats :[
                     {
-                    //platinum
-                    type: 'Platinum',
-                    rows: [
-                        {
-                            rowname: 'H',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'G',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'F',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        }
-                    ]
+                        //platinum
+                        type: 'Platinum',
+                        price:'500',
+                        rows: [
+                            {
+                                rowname: 'H',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'G',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'F',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         //platinum
                         type: 'Gold',
+                        price:'400',
                         rows: [
                             {
                                 rowname: 'E',
@@ -1524,6 +1532,7 @@ const screen = {
                     {
                         //platinum
                         type: 'Silver',
+                        price:'200',
                         rows: [
                             {
                                 rowname: 'B',
@@ -1663,209 +1672,211 @@ const screen = {
                 time: '09:00 PM',
                 seats :[
                     {
-                    //platinum
-                    type: 'Platinum',
-                    rows: [
-                        {
-                            rowname: 'H',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'G',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        },
-                        {
-                            rowname: 'F',
-                            cols: [
-                                {
-                                    //col1
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                },
-                                {
-                                    //col2
-                                    seats: [
-                                        {
-                                            type: 'seat',
-                                            status : 'not-available',
-                                            seat_id: '1'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '2'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '3'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '4'
-                                        },
-                                        {
-                                            type: 'seat',
-                                            status : 'available',
-                                            seat_id: '5'
-                                        }
-                                    ]                                
-                                }
-                            ]
-                        }
-                    ]
+                        //platinum
+                        type: 'Platinum',
+                        price:'500',
+                        rows: [
+                            {
+                                rowname: 'H',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'G',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            },
+                            {
+                                rowname: 'F',
+                                cols: [
+                                    {
+                                        //col1
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    },
+                                    {
+                                        //col2
+                                        seats: [
+                                            {
+                                                type: 'seat',
+                                                status : 'not-available',
+                                                seat_id: '1'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '2'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '3'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '4'
+                                            },
+                                            {
+                                                type: 'seat',
+                                                status : 'available',
+                                                seat_id: '5'
+                                            }
+                                        ]                                
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         //platinum
                         type: 'Gold',
+                        price:'400',
                         rows: [
                             {
                                 rowname: 'E',
@@ -2067,6 +2078,7 @@ const screen = {
                     {
                         //platinum
                         type: 'Silver',
+                        price:'200',
                         rows: [
                             {
                                 rowname: 'B',
@@ -2205,7 +2217,15 @@ const screen = {
         ]
     }
 const generateSeatLayout = () => {
-     return <></> 
+    const x=screen.timeslots.findIndex((t:any)=>t.time===selectedTime.time)
+    return screen.timeslots[x].seats.map((seatType,index)=>(
+        <div className="seat-type" key={index}>
+            <h2>{seatType.type}-Rs.{seatType.price}</h2>
+            <div className="seat-rows">
+
+            </div>
+        </div>
+    ))
 }
 const [selectedTime, setSelectedTime] = React.useState<any>(screen.timeslots[0])
 
