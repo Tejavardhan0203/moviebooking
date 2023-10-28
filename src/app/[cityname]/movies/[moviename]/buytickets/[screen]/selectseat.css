@@ -2,3 +2,26 @@
     background-color: var(--col2);
     padding: 10px;
 }
+.selectseatpage{
+    background-color: rgb(228, 228, 228);
+    min-height: 100vh;
+    width: 100%;
+}
+.selectseatpage .s1{
+    background-color: white;
+}
+.selectseatpage .head .h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.selectseatpage .head h3 {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: fit-content;
+}

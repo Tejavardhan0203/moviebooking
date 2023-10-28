@@ -2267,12 +2267,12 @@ const [selectedTime, setSelectedTime] = React.useState<any>(screen.timeslots[0])
 return (
     <div className='selectseatpage'>
         <div className="s1">
-        <div className="head">
-            <h1>{movie.moviename}-{movie.language}</h1>
-            <h3>{movie.type}</h3>
+            <div className="head">
+                <h1>{movie.moviename}-{movie.language}</h1>
+                <h3>{movie.type}</h3>
+            </div>
         </div>
-        </div>
-      <div className="selectseat">
+        <div className="selectseat">
             <div className="timecont">
                 {screen.timeslots.map((time:any,index:number) =>(
                     <h3
