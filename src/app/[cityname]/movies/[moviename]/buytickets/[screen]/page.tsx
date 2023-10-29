@@ -88,7 +88,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -118,12 +118,12 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -153,7 +153,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -260,7 +260,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -270,7 +270,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -290,7 +290,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -300,7 +300,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -320,7 +320,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
@@ -330,7 +330,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '4'
                                             },
                                             {
@@ -350,7 +350,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
@@ -365,7 +365,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -380,7 +380,7 @@ const screen = {
                                         seats: [
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '1'
                                             },
                                             {
@@ -390,7 +390,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -400,7 +400,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -415,7 +415,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
@@ -430,7 +430,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -457,7 +457,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
@@ -472,7 +472,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -487,7 +487,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '2'
                                             },
                                             {
@@ -502,7 +502,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -527,7 +527,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '3'
                                             },
                                             {
@@ -537,7 +537,7 @@ const screen = {
                                             },
                                             {
                                                 type: 'seat',
-                                                status : 'available',
+                                                status : 'not-available',
                                                 seat_id: '5'
                                             }
                                         ]                                
@@ -2289,7 +2289,7 @@ return (
             </div>
             <div className="indicators">
                 <div>
-                    <span className="seat-unavailable"></span>
+                    <span className="seat-not-available"></span>
                     <p>Not available</p>
                 </div>
                 <div>
