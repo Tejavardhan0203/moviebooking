@@ -2237,13 +2237,26 @@ const generateSeatLayout = () => {
                                                     <div key={seatIndex}>
                                                         {
                                                             seat.status=='available' &&
-                                                            <span className='seat-available'>
+                                                            <span className=
+                                                            {
+                                                                selectedSeats.findIndex((s:any)=>{
+                                                                    return s.row === row.rowname && s.col === colIndex && s.seat_id ===seat.seat_id
+                                                                })?'seat-selected':'seat-available'
+                                                            }
+                                                            >
                                                                 {seatIndex+1}
                                                             </span>
                                                         }
                                                         {
                                                             seat.status=='not-available' &&
-                                                            <span className='seat-not-available'>
+                                                            <span className='seat-not-available'
+                                                                onClick={()=> selectdeselectseat({
+                                                                    row:row.rowname,
+                                                                    col:colIndex,
+                                                                    seat_id:seat.seat_id,
+                                                                    price:seatType.price
+                                                                })}
+                                                            >
                                                                 {seatIndex+1}
                                                             </span>
                                                         }
@@ -2263,6 +2276,19 @@ const generateSeatLayout = () => {
     ))
 }
 const [selectedTime, setSelectedTime] = React.useState<any>(screen.timeslots[0])
+
+const [selectedSeats,setSelectedSeats] = React.useState<any[]>([])
+const selectdeselectseat= (seat:any) => {
+    const isselected=selectedSeats.findIndex((s:any)=>{
+        return s.row === seat.row && s.col === seat.col && s.seat_id ===seat.seat_id
+    })
+    if(isselected){
+        setSelectedSeats(selectedSeats.filter((s:any)=>s.seat_id !==seat.seat_id))
+    }
+    else{
+        setSelectedSeats([...selectedSeats,seat])
+    }
+}
 
 return (
     <div className='selectseatpage'>
