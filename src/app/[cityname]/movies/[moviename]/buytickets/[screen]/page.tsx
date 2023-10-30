@@ -2239,9 +2239,11 @@ const generateSeatLayout = () => {
                                                             seat.status=='available' &&
                                                             <span className=
                                                             {
-                                                                selectedSeats.findIndex((s:any)=>{
-                                                                    return s.row === row.rowname && s.col === colIndex && s.seat_id ===seat.seat_id
-                                                                })?'seat-selected':'seat-available'
+                                                                selectedSeats.find((s: any) => (
+                                                                    s.row === row.rowname &&
+                                                                    s.seat_id === seat.seat_id &&
+                                                                    s.col === colIndex
+                                                                )) ? "seat-selected" : "seat-available"
                                                             }
                                                             onClick={()=> selectdeselectseat({
                                                                 row:row.rowname,
